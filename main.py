@@ -323,4 +323,8 @@ def update_graph(app_name):
         paper_bgcolor=colors["background"],
         font_color=colors["text"],
     )
-  
+    return fig
+
+
+if __name__ == "__main__":
+    app.run_server(debug=True)
